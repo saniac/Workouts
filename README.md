@@ -12,3 +12,7 @@ Goals are:
 Compile with
 
     ghc -main-is Workouts workout.hs
+
+Link the resulting "workout" executable to the name "wendler"
+
+    ln -s workout wendler
